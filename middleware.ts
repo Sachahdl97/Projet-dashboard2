@@ -1,4 +1,6 @@
-export const runtime = "nodejs";
+export const runtime = "nodejs";git add .
+git commit -m "fix middleware runtime"
+git push
 import { NextRequest, NextResponse } from "next/server";
 import { jwtVerify } from "jose";
 
